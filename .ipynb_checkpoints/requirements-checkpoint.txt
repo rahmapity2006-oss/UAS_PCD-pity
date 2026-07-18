@@ -1,0 +1,17 @@
+opencv-python-headless
+Pillow
+numpy
+
+opencv-python-headless: Versi headless lebih disarankan untuk aplikasi GUI karena tidak membutuhkan dependensi GUI tambahan (seperti Qt) yang sering menyebabkan konflik pada sistem operasi tertentu.
+
+Pillow: Digunakan untuk mengolah gambar agar bisa ditampilkan di widget Tkinter.
+
+numpy: Digunakan untuk perhitungan matriks dan operasi array pada gambar.
+
+pip install -r requirements.txt - untuk install
+
+OpenCV (Open Source Computer Vision Library): Bradski, G. (2000). The OpenCV Library. Dr. Dobb's Journal of Software Tools. Pustaka ini digunakan untuk operasi pemrosesan citra digital seperti blurring, edge detection, thresholding (Otsu), dan ekstraksi kontur.
+
+Tkinter & Pillow: Lundh, F. (2000). Python Imaging Library (PIL). Pustaka ini digunakan untuk integrasi visualisasi antarmuka pengguna (GUI) dan rendering citra pada framework Tkinter.
+
+NumPy: Harris, C. R., et al. (2020). Array programming with NumPy. Nature, 585(7825), 357-362. Digunakan untuk efisiensi komputasi numerik dalam memanipulasi data piksel citra.
